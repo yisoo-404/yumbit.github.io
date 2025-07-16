@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Order Now</title>
+<link rel="icon" type="image/png" href="food12.png">
+</head>
+
+<body>
+	<header style="background: #ff6600;"> 
+	<img src="food12.png" alt="YumBite" width="170" height="170" style="display: block; margin: 0 auto;"> </header>
+<div style="text-align: center; margin-top: 50px;">
+<form action="index.php method= "POST" encrptype="multipart/form-data">
+	<label for= "first name"> <strong>First Name:</strong> </label>
+	<input type="text" id="first name" placeholder="Kim" minlength= "3" maxlength="9" required> <br> <br>
+
+	<label for= "last name"> <strong>Last Name: </strong></label>
+	<input type="text" id="last name" placeholder="Jisoo"minlength= "3" maxlength="9" required> <br> <br>
+
+	<label for= "password"> <strong>Order Pin</strong> </label>
+	<input type= "password" id= "password" placeholder="Pin" min="8" max="15" required> <br> <br>
+
+	<label for= "email"> <strong>Email: </strong></label>
+	<input type= "email" id="email" placeholder="example123@gmail.com" required> <br> <br>
+
+	<label for= "phone"> <strong>Phone No:</strong> </label>
+	<input type= "tel" id=" phone" placeholder="0334 567 8901" required> <br> <br>
+
+	<label for= "title"> <strong>Food:</strong> </label>
+
+	<label for= "pizza"> Pizza </label>
+	<input type="radio" id="pizza" value="pizza" name="yoan">
+	<label for= "burger">  Burger </label>
+	<input type="radio" id="burger" value="burger" name="yoan">
+	<label for= "french fries"> French Fries</label>
+	<input type="radio" id="french fries" value="french fries" name="yoan"> <br> <br>
+
+	
+	<label for= "payment"> <strong>Payment:</strong> </label>
+	<select>
+	<option> COD </option>
+	<option> Jazzcash </option>
+	<option> Easypaisa </option>
+	<option> Visa </option>
+	<select> <br> <br>
+
+	<label for= "notificatios"> <strong>Notifications:</strong> </label>
+	<input type= "checkbox" id="notifications"> <br> <br>
+
+	<label for= "file"> <strong>Your Image: </strong></label>
+	<input type="file" id="file" accept="image/png , image/jpeg"> <br> <br>
+
+	<input type= "submit">
+	<input type= "reset">
+</form>
+</div>	
+</body>
+<style>
+body {
+	background-color: #ff6600;
+}
+
+
+</style>
+</html>
